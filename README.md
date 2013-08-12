@@ -2,7 +2,7 @@
 
 **GitSnapShot** is a ZSH thin wrapper for Git commands for easier and simpler usage
 
-**GitSnapShot** inherits **Full Git Commands**, and adds handy Shortcuts.
+**GitSnapShot** inherits **Full Git Commands** and adds handy Shortcuts.
 
 ###Usage
 - ####snapshot for a New version
