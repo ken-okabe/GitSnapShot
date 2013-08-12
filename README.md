@@ -1,8 +1,8 @@
 #GitSnapShot
 
-**GitSnapShot** is a thin wrapper in ZSH for Git command for easier and simpler usage
+**GitSnapShot** is a ZSH thin wrapper for Git commands for easier and simpler usage
 
-**GitSnapShot** inherits from **Full Git Command**, and add some Shortcut.
+**GitSnapShot** inherits **Full Git Commands**, and adds handy Shortcuts.
 
 ###Usage
 - ####snapshot for a New version
@@ -23,15 +23,23 @@ is equivalent to
 git add -A -v
 git commit -m "fixed the bug"
 ```
-- ####Compare to the Previous version
+- ####Compare to the Latest snapshot = Current version
 ```
-ss ?asdfsdfsadfsssssssss
+ss 0
 ```
 is equivalent to
 ```
-git diff head^
+git diff head~0
 ```
-- ####Everything else is completely inherited from Git command
+- ####Compare to the Second Latest snapshot = Previous version
+```
+ss 1
+```
+is equivalent to
+```
+git diff head~1
+```
+- ####Everything else is completely inherited from Git commands
 ```
 ss --help
 ```
