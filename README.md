@@ -25,7 +25,7 @@ git commit -m "fixed the bug"
 ```
 - ####Compare to the Previous version
 ```
-ss ?asdfsdfsadf
+ss ?asdfsdfsadfsssssssss
 ```
 is equivalent to
 ```
