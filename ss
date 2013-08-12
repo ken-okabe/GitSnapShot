@@ -8,8 +8,16 @@ if [ $ARG_FIRST ]; then
     git add -A -v
     git commit -m $ARG_REST
   else
-    git $1
-  fi
+     if [ $ARG_FIRST = "?" ]; then
+        git diff head
+     else
+       if [ $ARG_FIRST = "??" ]; then
+         git diff head^
+       else
+         git $1
+       fi
+     fi
+   fi 
 else
   git add -A -v
   git commit -m "commit"
