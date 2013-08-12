@@ -54,10 +54,10 @@ git --help
 ```
 *Any Git commands ! !*
 ```
-ss push origin remote
+ss push origin master
 ```
 is equivalent to
 ```
-git push origin remote
+git push origin master
 ```
 
