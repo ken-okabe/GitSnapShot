@@ -11,7 +11,7 @@ if [ $ARG_FIRST ]; then
      if [[ $ARG_FIRST =~ [0-9] ]]; then
         git diff head~$ARG_FIRST
     else
-        git $1
+        git $@
      fi
    fi 
 else
