@@ -47,5 +47,12 @@ is equivalent to
 ```
 git --help
 ```
-
+*Any Git commands ! !*
+```
+ss push origin remote
+```
+is equivalent to
+```
+git push origin remote
+```
 
