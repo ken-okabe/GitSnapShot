@@ -61,3 +61,4 @@ is equivalent to
 git push origin master
 ```
 
+MIT License
